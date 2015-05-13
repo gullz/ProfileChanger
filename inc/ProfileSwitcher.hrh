@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name		: ProfileSwitcher.hrh
+ Author	  : Bhathiya
+ Copyright   : Profile Switcher 0.1b - Symbian application to switch between profiles
+ Copyright (C) 2015  Bhathiya Bandara
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ Description : This file contains declarations for constants of ProfileSwitcher.
+ The file can be included in C++ or resource file.
+ ============================================================================
+ */
+#ifndef __PROFILESWITCHER_HRH__
+#define __PROFILESWITCHER_HRH__
+
+#define _UID3 0xE6DC77AC
+
+// ProfileSwitcher enumerate command codes
+enum TProfileSwitcherIds
+	{
+	ECommand1 = 0x6001, // start value must not be 0
+	ECommand2,
+	EHelp,
+	EAbout
+	};
+
+#endif // __PROFILESWITCHER_HRH__

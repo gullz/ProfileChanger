@@ -1,0 +1,33 @@
+/*
+============================================================================
+ Name		: ProfileSwitcher.rss
+ Author	  : Bhathiya
+ Copyright   : Profile Switcher 0.1b - Symbian application to switch between profiles
+Copyright (C) 2015  Bhathiya Bandara
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+ Description : This file contains the application registration resource.
+============================================================================
+*/
+
+#include "ProfileSwitcher.hrh"
+#include "ProfileSwitcher.rls"
+#include <appinfo.rh>
+#include <ProfileSwitcher.rsg>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 _UID3
+
+RESOURCE APP_REGISTRATION_INFO
+	{
+	app_file="Profile Switcher";
+	localisable_resource_file =  qtn_loc_resource_file_1;
+	localisable_resource_id = R_LOCALISABLE_APP_INFO;
+
+	embeddability=KAppNotEmbeddable;
+	newfile=KAppDoesNotSupportNewFile;
+	}
+
