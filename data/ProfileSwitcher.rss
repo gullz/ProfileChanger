@@ -90,16 +90,6 @@ RESOURCE MENU_PANE r_menu
 		// added the new Options menu command here
 		MENU_ITEM
 				{
-				command = ECommand1;
-				txt = qtn_command1;
-				},
-		MENU_ITEM
-				{
-				command = ECommand2;
-				txt = qtn_command2;
-				},
-		MENU_ITEM
-				{
 				command = EHelp;
 				txt = qtn_help;
 				},
@@ -158,7 +148,7 @@ RESOURCE DIALOG r_about_query_dialog
 RESOURCE TBUF32 r_caption_string { buf=qtn_caption_string; }
 RESOURCE TBUF32 r_about_dialog_title { buf=qtn_about_dialog_title; }
 RESOURCE TBUF r_about_dialog_text { buf=qtn_about_dialog_text; }
-RESOURCE TBUF r_command1_text { buf=qtn_command1_text; }
+// RESOURCE TBUF r_command1_text { buf=qtn_command1_text; }
 
 
 // ---------------------------------------------------------------------------- 

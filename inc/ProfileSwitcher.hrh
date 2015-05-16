@@ -21,9 +21,7 @@
 // ProfileSwitcher enumerate command codes
 enum TProfileSwitcherIds
 	{
-	ECommand1 = 0x6001, // start value must not be 0
-	ECommand2,
-	EHelp,
+	EHelp = 0x6001,
 	EAbout
 	};
 

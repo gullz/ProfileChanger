@@ -26,7 +26,7 @@
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\ProfileSwitcher\group\bld.inf;C:\Symbian\Carbide\workspace\ProfileSwitcher\group\ProfileSwitcher.mmp;" includesCache="C:/Symbian/Carbide/workspace/ProfileSwitcher/inc[LOCAL];C:/Symbian/Carbide/workspace/ProfileSwitcher/help[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="_UNICODE;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EXE__;__S60_3X__;__SERIES60_3X__;_HELP_AVAILABLE_;__S60_32__;__CW32__;__WINS__;__WINSCW__;_DEBUG;" moduleId="configDataCache" sourcesCache="/ProfileSwitcher/data;/ProfileSwitcher/help;/ProfileSwitcher/inc;/ProfileSwitcher/src;" timestampCache="1431539998197" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\ProfileSwitcher\group\bld.inf;C:\Symbian\Carbide\workspace\ProfileSwitcher\group\ProfileSwitcher.mmp;" includesCache="C:/Symbian/Carbide/workspace/ProfileSwitcher/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="_UNICODE;__SYMBIAN32__;__SUPPORT_CPP_EXCEPTIONS__;__EXE__;__S60_3X__;__SERIES60_3X__;__S60_32__;__CW32__;__WINS__;__WINSCW__;_DEBUG;" moduleId="configDataCache" sourcesCache="/ProfileSwitcher/data;/ProfileSwitcher/inc;/ProfileSwitcher/src;data;inc;src;" timestampCache="1431765331022" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
@@ -50,12 +50,12 @@
 </extensions>
 </storageModule>
 <storageModule moduleId="CarbideConfigurationDataProvider">
-<SIS_BUILDER_DATA_ID CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="sis/ProfileSwitcher_S60_3_X_v_1_0_0.pkg" SIGNINGTYPESTORAGE="1"/>
+<SIS_BUILDER_DATA_ID CERTIFICATESTORAGE="C:\Users\Bhathiya\Testing.cer" CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" KEYSTORAGE="C:\Users\Bhathiya\Testing.key" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="sis/ProfileSwitcher_S60_3_X_v_1_0_0.pkg" SIGNINGTYPESTORAGE="2"/>
 <ENV_VAR_DATA_ID/>
 <ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
 <ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
 </storageModule>
-<storageModule filesCache="C:\Symbian\Carbide\workspace\ProfileSwitcher\group\bld.inf;C:\Symbian\Carbide\workspace\ProfileSwitcher\group\ProfileSwitcher.mmp;" includesCache="C:/Symbian/Carbide/workspace/ProfileSwitcher/inc[LOCAL];C:/Symbian/Carbide/workspace/ProfileSwitcher/help[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;_HELP_AVAILABLE_;__S60_32__;__MARM_ARMV5__;NDEBUG;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;__S60_3X__;__GENERIC_MARM__;__EPOC32__;__EABI__;" moduleId="configDataCache" sourcesCache="/ProfileSwitcher/data;/ProfileSwitcher/help;/ProfileSwitcher/inc;/ProfileSwitcher/src;" timestampCache="1431539998206" useMmpMacrosCache="true"/>
+<storageModule filesCache="C:\Symbian\Carbide\workspace\ProfileSwitcher\group\bld.inf;C:\Symbian\Carbide\workspace\ProfileSwitcher\group\ProfileSwitcher.mmp;" includesCache="C:/Symbian/Carbide/workspace/ProfileSwitcher/inc[LOCAL];C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/include;" macrosCache="_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__S60_32__;__MARM_ARMV5__;NDEBUG;__SYMBIAN32__;__GCCE__;__MARM__;__EXE__;__SERIES60_3X__;__S60_3X__;__GENERIC_MARM__;__EPOC32__;__EABI__;" moduleId="configDataCache" sourcesCache="/ProfileSwitcher/data;/ProfileSwitcher/inc;/ProfileSwitcher/src;data;inc;src;" timestampCache="1431765331049" useMmpMacrosCache="true"/>
 <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 <storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
 <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>

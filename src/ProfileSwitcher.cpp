@@ -17,13 +17,13 @@
 #include <eikstart.h>
 #include "ProfileSwitcherApplication.h"
 
-LOCAL_C CApaApplication* NewApplication()
-	{
+static CApaApplication* NewApplication()
+{
 	return new CProfileSwitcherApplication;
-	}
+}
 
-GLDEF_C TInt E32Main()
-	{
+TInt E32Main()
+{
 	return EikStart::RunApplication(NewApplication);
-	}
+}
 

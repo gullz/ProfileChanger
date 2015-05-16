@@ -25,11 +25,11 @@
 // -----------------------------------------------------------------------------
 //
 CProfileSwitcherDocument* CProfileSwitcherDocument::NewL(CEikApplication& aApp)
-	{
+{
 	CProfileSwitcherDocument* self = NewLC(aApp);
 	CleanupStack::Pop(self);
 	return self;
-	}
+}
 
 // -----------------------------------------------------------------------------
 // CProfileSwitcherDocument::NewLC()
@@ -37,14 +37,14 @@ CProfileSwitcherDocument* CProfileSwitcherDocument::NewL(CEikApplication& aApp)
 // -----------------------------------------------------------------------------
 //
 CProfileSwitcherDocument* CProfileSwitcherDocument::NewLC(CEikApplication& aApp)
-	{
+{
 	CProfileSwitcherDocument* self =
 			new (ELeave) CProfileSwitcherDocument(aApp);
 
 	CleanupStack::PushL(self);
 	self->ConstructL();
 	return self;
-	}
+}
 
 // -----------------------------------------------------------------------------
 // CProfileSwitcherDocument::ConstructL()

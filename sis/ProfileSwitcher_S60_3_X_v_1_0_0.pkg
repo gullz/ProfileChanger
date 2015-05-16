@@ -10,7 +10,7 @@
 &EN
 
 ; standard SIS file header
-#{"ProfileSwitcher"},1,0,0
+#{"ProfileSwitcher"},(0xE6DC77AC ),0,1,0
 
 ;Localised Vendor name
 %{"Vendor-EN"}
@@ -28,7 +28,6 @@
 "$(EPOCROOT)Epoc32\data\z\resource\apps\ProfileSwitcher.rsc"		-"!:\resource\apps\ProfileSwitcher.rsc"
 "$(EPOCROOT)Epoc32\data\z\private\10003a3f\apps\ProfileSwitcher_reg.rsc"	-"!:\private\10003a3f\import\apps\ProfileSwitcher_reg.rsc"
 "$(EPOCROOT)Epoc32\data\z\resource\apps\ProfileSwitcher.mif" -"!:\resource\apps\ProfileSwitcher.mif"
-"..\help\ProfileSwitcher.hlp"							 -"!:\resource\help\ProfileSwitcher.hlp"
 
 ; Add any installation notes if applicable
 ;"ProfileSwitcher.txt"		-"!:\private\E6DC77AC\ProfileSwitcher.txt"

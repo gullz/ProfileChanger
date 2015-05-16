@@ -13,8 +13,6 @@ of the License, or (at your option) any later version.
 ============================================================================
 */
 
-MACRO _HELP_AVAILABLE_
-
 TARGET			ProfileSwitcher.exe
 TARGETTYPE		exe
 UID		  0x100039CE 0xE6DC77AC
@@ -42,7 +40,6 @@ END //RESOURCE
 
 
 USERINCLUDE	   ..\inc
-USERINCLUDE    ..\help
 
 SYSTEMINCLUDE	 \epoc32\include
 
@@ -65,6 +62,6 @@ SECUREID		  0xE6DC77AC
 CAPABILITY	  	  ReadUserData
 
 #ifdef ENABLE_ABIV2_MODE
-  DEBUGGABLE_UDEBONLY
+DEBUGGABLE_UDEBONLY
 #endif
 // End of File

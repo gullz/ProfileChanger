@@ -18,35 +18,8 @@ of the License, or (at your option) any later version.
 PRJ_PLATFORMS
 WINSCW ARMV5 GCCE
 
-
-#ifdef SBSV2
-
-PRJ_EXTENSIONS
-	
-	START EXTENSION s60/mifconv
-	OPTION TARGETFILE profileswitcher_0xE6DC77AC.mif
-	OPTION HEADERFILE profileswitcher_0xE6DC77AC.mbg
-	OPTION SOURCEDIR ../gfx
-	OPTION SOURCES -c32 qgn_menu_ProfileSwitcher
-	END
-	
-	// help compiler is not always available; see similar comment in *.pkg file
-	START EXTENSION techview/bldhelp
-	OPTION HELPPROJECTFILE ProfileSwitcher.cshlp
-	OPTION HELPTOOLTARGETNAME profileswitcher_0xE6DC77AC.hlp
-	END
-
-#else
-
 PRJ_MMPFILES
-
 	gnumakefile icons_scalable_dc.mk
-
-	// help compiler is not always available; see similar comment in *.pkg file
-	gnumakefile ../help/build_help.mk
-
-#endif
-
 PRJ_MMPFILES
 
 ProfileSwitcher.mmp

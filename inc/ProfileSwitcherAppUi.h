@@ -74,7 +74,6 @@ private:
 	 *  Provides help context for the application.
 	 *  size is changed.
 	 */
-	CArrayFix<TCoeHelpContext>* HelpContextL() const;
 
 private:
 	// Data
